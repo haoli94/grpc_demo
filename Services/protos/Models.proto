@@ -1,0 +1,10 @@
+syntax = "proto3";
+package Services_pb;
+//option  go_package = "./protobufs";//设置go包的可选项
+
+// 商品模型
+message ProdModel{
+
+  int32 ProdID = 1 [json_name="pid"];
+  string ProdName = 2 [json_name="pname"];
+}
